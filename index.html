@@ -7,12 +7,31 @@
   </head>
   <body>
     <h2>Inventory Example</h2>
-    <select id='sizeIn'>
-      <option>SIZEOPTION</option>
-    </select>
-    <select id='colorIn'>
-      <option>COLOROPTION</option>
-    </select>
+    <div>
+    <input type="text" id="colorIn" placeholder = "color of item">
+    <input type="text" id="sizeIn" placeholder = "size of item">
+    <input type = "text" id = 'nameIn' placeholder = 'name of item'>
     <button onclick="searchInventory()">Search Inventory</button>
+  </div>
+  <div>
+    <select id='colorIn'>
+      <option value="Red">Red</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Green">Green</option>
+      <option value="Blue">Blue</option>
+      <option value="Orange">Orange</option>
+      <option value="Purple">Purple</option>
+    </select>
+    <select id='sizeIn'>
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+    <select id='nameIn'>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+    </select>
+    </div>
   </body>
 </html>
